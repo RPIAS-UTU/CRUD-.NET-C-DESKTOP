@@ -1,0 +1,11 @@
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\CRUD\bin\Debug\CRUD.exe.config
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\CRUD\bin\Debug\CRUD.exe
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\CRUD\bin\Debug\CRUD.pdb
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\CRUD\obj\Debug\CRUD.csproj.AssemblyReference.cache
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\CRUD\obj\Debug\CRUD.csproj.SuggestedBindingRedirects.cache
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\CRUD\obj\Debug\CRUD.Form1.resources
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\CRUD\obj\Debug\CRUD.Properties.Resources.resources
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\CRUD\obj\Debug\CRUD.csproj.GenerateResource.cache
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\CRUD\obj\Debug\CRUD.exe
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\CRUD\obj\Debug\CRUD.pdb

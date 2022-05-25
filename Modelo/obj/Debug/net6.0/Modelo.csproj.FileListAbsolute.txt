@@ -1,0 +1,12 @@
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\Modelo\bin\Debug\net6.0\Modelo.deps.json
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\Modelo\bin\Debug\net6.0\Modelo.dll
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\Modelo\bin\Debug\net6.0\Modelo.pdb
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\Modelo\obj\Debug\net6.0\Modelo.csproj.AssemblyReference.cache
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\Modelo\obj\Debug\net6.0\Modelo.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\Modelo\obj\Debug\net6.0\Modelo.AssemblyInfoInputs.cache
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\Modelo\obj\Debug\net6.0\Modelo.AssemblyInfo.cs
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\Modelo\obj\Debug\net6.0\Modelo.csproj.CoreCompileInputs.cache
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\Modelo\obj\Debug\net6.0\Modelo.dll
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\Modelo\obj\Debug\net6.0\refint\Modelo.dll
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\Modelo\obj\Debug\net6.0\Modelo.pdb
+E:\PROYECTOS\.NET\C#_Desktop\Ejercicios_UTU\CRUD\Modelo\obj\Debug\net6.0\ref\Modelo.dll

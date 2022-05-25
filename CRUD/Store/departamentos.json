@@ -1,0 +1,80 @@
+{
+  "departamentos": [
+    {
+      "cÃ³digo": "AR",
+      "nombre": "Artigas"
+    },
+    {
+      "cÃ³digo": "CA",
+      "nombre": "Canelones"
+    },
+    {
+      "cÃ³digo": "CL",
+      "nombre": "Cerro Largo"
+    },
+    {
+      "cÃ³digo": "CO",
+      "nombre": "Colonia"
+    },
+    {
+      "cÃ³digo": "DU",
+      "nombre": "Durazno"
+    },
+    {
+      "cÃ³digo": "FS",
+      "nombre": "Flores"
+    },
+    {
+      "cÃ³digo": "FD",
+      "nombre": "Florida"
+    },
+    {
+      "cÃ³digo": "LA",
+      "nombre": "Lavalleja"
+    },
+    {
+      "cÃ³digo": "MA",
+      "nombre": "Maldonado"
+    },
+    {
+      "cÃ³digo": "MO",
+      "nombre": "Montevideo"
+    },
+    {
+      "cÃ³digo": "PA",
+      "nombre": "PaysandÃº"
+    },
+    {
+      "cÃ³digo": "RN",
+      "nombre": "RÃ­o Negro"
+    },
+    {
+      "cÃ³digo": "RV",
+      "nombre": "Rivera"
+    },
+    {
+      "cÃ³digo": "RO",
+      "nombre": "Rocha"
+    },
+    {
+      "cÃ³digo": "SA",
+      "nombre": "Salto"
+    },
+    {
+      "cÃ³digo": "SJ",
+      "nombre": "San JosÃ©"
+    },
+    {
+      "cÃ³digo": "SO",
+      "nombre": "Soriano"
+    },
+    {
+      "cÃ³digo": "TA",
+      "nombre": "TacuarembÃ³"
+    },
+    {
+      "cÃ³digo": "TT",
+      "nombre": "Treinta y Tres"
+    }
+  ]
+}
