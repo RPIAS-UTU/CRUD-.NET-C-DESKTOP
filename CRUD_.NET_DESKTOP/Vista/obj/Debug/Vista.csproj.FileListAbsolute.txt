@@ -1,0 +1,14 @@
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Vista\bin\Debug\Vista.exe.config
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Vista\bin\Debug\Vista.exe
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Vista\bin\Debug\Vista.pdb
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Vista\obj\Debug\Vista.csproj.AssemblyReference.cache
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Vista\obj\Debug\Vista.csproj.SuggestedBindingRedirects.cache
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Vista\obj\Debug\Vista.Properties.Resources.resources
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Vista\obj\Debug\Vista.csproj.GenerateResource.cache
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Vista\obj\Debug\Vista.csproj.CoreCompileInputs.cache
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Vista\obj\Debug\Vista.exe
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Vista\obj\Debug\Vista.pdb
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Vista\obj\Debug\Vista.frmDirectores.resources
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Vista\bin\Debug\Modelo.dll
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Vista\bin\Debug\Modelo.pdb
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Vista\obj\Debug\Vista.csproj.CopyComplete

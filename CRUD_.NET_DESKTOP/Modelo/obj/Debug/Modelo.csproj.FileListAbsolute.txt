@@ -1,0 +1,6 @@
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Modelo\bin\Debug\Modelo.dll
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Modelo\bin\Debug\Modelo.pdb
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Modelo\obj\Debug\Modelo.dll
+E:\PROYECTOS\Proyectos\GIT_PERSONAL\CRUD-.NET-C-DESKTOP\CRUD_.NET_DESKTOP\Modelo\obj\Debug\Modelo.pdb
