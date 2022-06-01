@@ -8,16 +8,23 @@ namespace Modelo
 {
     public class Alumno : Persona, IAlumnos
     {
-        public int Nota { get; set; }
+        public int NotaFinal { get; set; }
 
-        public Alumno(int cedula, string primer_nombre, string segundo_nombre, string primer_apellido, string segundo_apellido, int nota) : base(cedula, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido)
+        public Alumno(int cedula, string primer_nombre, string segundo_nombre, string primer_apellido, string segundo_apellido) : base(cedula, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido)
         {
-            this.Nota = nota;
         }
 
-        public int NotaCurso()
+        public int NotaCurso(List<int> notas)
         {
-           return Nota * 2;
+            int salida = 0;
+
+            foreach (var nota in notas)
+            {
+                salida += nota;
+
+            }
+            salida = (int) salida / notas.Count;
+            return salida;
 
         }
     }

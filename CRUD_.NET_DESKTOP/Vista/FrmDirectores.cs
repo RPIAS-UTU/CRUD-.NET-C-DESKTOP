@@ -81,8 +81,22 @@ namespace Vista
 
         private void btnCrearDirector_Click(object sender, EventArgs e)
         {
-            Director d = new Director(1897475, "Juan", "Manuel", "Perez", "Britos",25444.44, 2.5 );
-            MessageBox.Show("El Sueldo de este director es de : " + d.CalcularSueldo().ToString());
+            Director dire = new Director(1897475, "Juan", "Manuel", "Perez", "Britos",25444.44, 2.5 );
+            MessageBox.Show("El Sueldo de este director es de : " + dire.CalcularSueldo().ToString());
+
+            Profesor profe = new Profesor(38978547, "Maria", "Alicia", "Rodríguez", "Pereyra",22, 55.2);
+            MessageBox.Show("El Sueldo de esta Profesora es de : " + profe.CalcularSueldo().ToString());
+        }
+
+        private void btnCrearAlumno_Click(object sender, EventArgs e)
+        {
+
+            var notas = new List<int> { 10, 9, 8, 6, 11, 12, 12, 12, 12 };
+
+            Alumno a = new Alumno(38978547, "Maria", "Alicia", "Rodríguez", "Pereyra");
+            a.NotaFinal = a.NotaCurso(notas);
+
+            MessageBox.Show("La Nota de este alumno es : " + a.NotaFinal);
         }
     }
 }

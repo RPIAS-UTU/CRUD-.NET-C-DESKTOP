@@ -56,6 +56,7 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnCrearDirector = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnCrearAlumno = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -313,6 +314,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnCrearAlumno);
             this.groupBox2.Controls.Add(this.btnCrearDirector);
             this.groupBox2.Location = new System.Drawing.Point(16, 235);
             this.groupBox2.Name = "groupBox2";
@@ -327,7 +329,7 @@
             this.btnCrearDirector.Name = "btnCrearDirector";
             this.btnCrearDirector.Size = new System.Drawing.Size(163, 23);
             this.btnCrearDirector.TabIndex = 0;
-            this.btnCrearDirector.Text = "Crear Director";
+            this.btnCrearDirector.Text = "Crear Director y Profesor";
             this.btnCrearDirector.UseVisualStyleBackColor = true;
             this.btnCrearDirector.Click += new System.EventHandler(this.btnCrearDirector_Click);
             // 
@@ -338,6 +340,16 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(770, 166);
             this.dataGridView1.TabIndex = 2;
+            // 
+            // btnCrearAlumno
+            // 
+            this.btnCrearAlumno.Location = new System.Drawing.Point(180, 32);
+            this.btnCrearAlumno.Name = "btnCrearAlumno";
+            this.btnCrearAlumno.Size = new System.Drawing.Size(163, 23);
+            this.btnCrearAlumno.TabIndex = 1;
+            this.btnCrearAlumno.Text = "Crear Alumno";
+            this.btnCrearAlumno.UseVisualStyleBackColor = true;
+            this.btnCrearAlumno.Click += new System.EventHandler(this.btnCrearAlumno_Click);
             // 
             // frmDirectores
             // 
@@ -405,6 +417,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnCrearDirector;
+        private System.Windows.Forms.Button btnCrearAlumno;
     }
 
 

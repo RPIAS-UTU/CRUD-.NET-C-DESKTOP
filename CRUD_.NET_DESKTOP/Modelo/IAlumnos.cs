@@ -8,6 +8,6 @@ namespace Modelo
 {
     public interface IAlumnos
     {
-        int NotaCurso();
+        int NotaCurso(List<int> notas);
     }
 }

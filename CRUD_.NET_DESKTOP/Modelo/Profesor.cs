@@ -23,7 +23,7 @@ namespace Modelo
             this.PrecioHora = precio_hora;
         }
 
-        double IFuncionarios.CalcularSueldo()
+        public double CalcularSueldo()
         {
             return CantidadHorasMensuales * PrecioHora;
         }
