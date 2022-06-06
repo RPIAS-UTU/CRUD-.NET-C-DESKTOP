@@ -16,6 +16,7 @@ namespace Vista
     // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods?source=docs
     public partial class frmDirectores : Form
     {
+        List<Director> lista = new List<Director>();
         public frmDirectores()
         {
             InitializeComponent();
@@ -63,7 +64,7 @@ namespace Vista
 
         private void btnObtenerCedula_Click(object sender, EventArgs e)
         {
-          string str_cedula = mtxtCedula.Text;
+            string str_cedula = mtxtCedula.Text;
             int cedula = Utiles.DevolverEntero(str_cedula);
 
             MessageBox.Show("Cedula obtenida: " + str_cedula + " - Cédula en formato numérico: " + cedula);
@@ -74,17 +75,17 @@ namespace Vista
         {
             string str_fecha = mtxtFecha.Text;
 
-            MessageBox.Show("Fecha obtenida: " + 
-                str_fecha + " - Fecha en formato válido: " + 
+            MessageBox.Show("Fecha obtenida: " +
+                str_fecha + " - Fecha en formato válido: " +
                 Utiles.DevolverFechaFormateada(str_fecha));
         }
 
         private void btnCrearDirector_Click(object sender, EventArgs e)
         {
-            Director dire = new Director(1897475, "Juan", "Manuel", "Perez", "Britos",25444.44, 2.5 );
+            Director dire = new Director(1897475, "Juan", "Manuel", "Perez", "Britos", 25444.44, 2.5);
             MessageBox.Show("El Sueldo de este director es de : " + dire.CalcularSueldo().ToString());
 
-            Profesor profe = new Profesor(38978547, "Maria", "Alicia", "Rodríguez", "Pereyra",22, 55.2);
+            Profesor profe = new Profesor(38978547, "Maria", "Alicia", "Rodríguez", "Pereyra", 22, 55.2);
             MessageBox.Show("El Sueldo de esta Profesora es de : " + profe.CalcularSueldo().ToString());
         }
 
@@ -97,6 +98,60 @@ namespace Vista
             a.NotaFinal = a.NotaCurso(notas);
 
             MessageBox.Show("La Nota de este alumno es : " + a.NotaFinal);
+        }
+
+        private void btn_cargar_a_grilla_Click(object sender, EventArgs e)
+        {
+
+            dgv_datos.Columns.Add("cedula", "Cédula");
+
+            dgv_datos.Columns.Add("n1", "Primer Nombre");
+            dgv_datos.Columns.Add("n2", "Segundo Nombre");
+            dgv_datos.Columns.Add("a1", "Primer Apellido");
+            dgv_datos.Columns.Add("a2", "Segundo Apellido");
+
+            dgv_datos.Columns[1].Width = 140;
+            dgv_datos.Columns[2].Width = 140;
+            dgv_datos.Columns[3].Width = 140;
+            dgv_datos.Columns[4].Width = 140;
+
+            int n = dgv_datos.Rows.Add();
+
+            dgv_datos.Rows[n].Cells[0].Value = txtCedula.Text;
+            dgv_datos.Rows[n].Cells[1].Value = txtPrimerNombre.Text;
+            dgv_datos.Rows[n].Cells[2].Value = txtSegundoNombre.Text;
+            dgv_datos.Rows[n].Cells[3].Value = txtPrimerApellido.Text;
+            dgv_datos.Rows[n].Cells[4].Value = txtSegundoApellido.Text;
+
+            LimpiarFormulario();
+        }
+
+        private void LimpiarFormulario()
+        {
+            txtCedula.Clear();
+            txtPrimerNombre.Clear();
+            txtSegundoNombre.Text = "";
+            txtPrimerApellido.Text = "";
+            txtSegundoApellido.Clear();
+        }
+
+        private void btn_cargar_grilla_Click(object sender, EventArgs e)
+        {
+           
+            Director d = new Director(
+               Convert.ToInt32(txtCedula.Text),
+               txtPrimerNombre.Text,
+               txtSegundoNombre.Text,
+               txtPrimerApellido.Text,
+               txtSegundoApellido.Text,
+               32000,
+               12
+               );
+            lista.Add(d);
+            dgv_datos.DataSource = null;
+            dgv_datos.DataSource = lista;
+            
+            LimpiarFormulario();
         }
     }
 }
