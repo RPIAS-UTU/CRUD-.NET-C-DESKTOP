@@ -16,7 +16,19 @@ namespace Vista
     // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods?source=docs
     public partial class frmDirectores : Form
     {
-        List<Director> lista = new List<Director>();
+
+        private static frmDirectores instancia = null;
+
+        private List<Director> lista = new List<Director>();
+
+        public static frmDirectores InstaciaUnica() {
+
+            if (instancia == null) { 
+                instancia = new frmDirectores();
+            }
+            return instancia;
+        }
+
         public frmDirectores()
         {
             InitializeComponent();
@@ -152,6 +164,13 @@ namespace Vista
             dgv_datos.DataSource = lista;
             
             LimpiarFormulario();
+        }
+
+        // cuando se esta cerrando
+        private void frmDirectores_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // evitar error de show() al cerrar ventana
+            instancia = null;
         }
     }
 }

@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlumno.Designer.cs">
+      <DependentUpon>FrmAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIPrincipal.Designer.cs">
+      <DependentUpon>MDIPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParentDefault.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParentDefault.Designer.cs">
+      <DependentUpon>MDIParentDefault.cs</DependentUpon>
+    </Compile>
     <Compile Include="Utiles.cs" />
     <Compile Include="FrmDirectores.cs">
       <SubType>Form</SubType>
@@ -55,8 +73,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MDIPrincipal.resx">
+      <DependentUpon>MDIPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmDirectores.resx">
       <DependentUpon>FrmDirectores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParentDefault.resx">
+      <DependentUpon>MDIParentDefault.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
