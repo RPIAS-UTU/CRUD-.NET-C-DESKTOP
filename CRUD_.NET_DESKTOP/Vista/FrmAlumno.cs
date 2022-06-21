@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Controlador;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,20 @@ namespace Vista
         public FrmAlumno()
         {
             InitializeComponent();
+        }
+
+        private void FrmAlumno_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                dgv_alumnos.DataSource = AlumnoController.ObtenerAlumnos();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar Alumnos :: " + ex.Message);
+            }
+
+          
         }
     }
 }

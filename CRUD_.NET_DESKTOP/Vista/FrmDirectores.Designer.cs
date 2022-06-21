@@ -83,7 +83,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 63.98602F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 151F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 161F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 162F));
             this.tableLayoutPanel1.Controls.Add(this.mtxtCredencial, 4, 3);
             this.tableLayoutPanel1.Controls.Add(this.label10, 4, 2);
             this.tableLayoutPanel1.Controls.Add(this.btnObtenerCedula, 2, 4);
@@ -120,7 +120,7 @@
             // 
             // mtxtCredencial
             // 
-            this.mtxtCredencial.Location = new System.Drawing.Point(601, 82);
+            this.mtxtCredencial.Location = new System.Drawing.Point(600, 82);
             this.mtxtCredencial.Mask = "LLL-#####";
             this.mtxtCredencial.Name = "mtxtCredencial";
             this.mtxtCredencial.Size = new System.Drawing.Size(100, 20);
@@ -129,7 +129,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(601, 57);
+            this.label10.Location = new System.Drawing.Point(600, 57);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(126, 13);
             this.label10.TabIndex = 19;
@@ -137,7 +137,7 @@
             // 
             // btnObtenerCedula
             // 
-            this.btnObtenerCedula.Location = new System.Drawing.Point(290, 115);
+            this.btnObtenerCedula.Location = new System.Drawing.Point(289, 115);
             this.btnObtenerCedula.Name = "btnObtenerCedula";
             this.btnObtenerCedula.Size = new System.Drawing.Size(126, 23);
             this.btnObtenerCedula.TabIndex = 2;
@@ -147,7 +147,7 @@
             // 
             // mtxtFecha
             // 
-            this.mtxtFecha.Location = new System.Drawing.Point(441, 82);
+            this.mtxtFecha.Location = new System.Drawing.Point(440, 82);
             this.mtxtFecha.Mask = "00/00/0000";
             this.mtxtFecha.Name = "mtxtFecha";
             this.mtxtFecha.Size = new System.Drawing.Size(100, 20);
@@ -156,7 +156,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(441, 57);
+            this.label9.Location = new System.Drawing.Point(440, 57);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(111, 13);
             this.label9.TabIndex = 17;
@@ -165,7 +165,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(290, 57);
+            this.label8.Location = new System.Drawing.Point(289, 57);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(109, 13);
             this.label8.TabIndex = 15;
@@ -173,7 +173,7 @@
             // 
             // txtSegundoApellido
             // 
-            this.txtSegundoApellido.Location = new System.Drawing.Point(601, 23);
+            this.txtSegundoApellido.Location = new System.Drawing.Point(600, 23);
             this.txtSegundoApellido.Name = "txtSegundoApellido";
             this.txtSegundoApellido.Size = new System.Drawing.Size(94, 20);
             this.txtSegundoApellido.TabIndex = 13;
@@ -248,7 +248,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(601, 0);
+            this.label7.Location = new System.Drawing.Point(600, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(89, 13);
             this.label7.TabIndex = 12;
@@ -257,7 +257,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(290, 0);
+            this.label5.Location = new System.Drawing.Point(289, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(90, 13);
             this.label5.TabIndex = 8;
@@ -265,7 +265,7 @@
             // 
             // txtSegundoNombre
             // 
-            this.txtSegundoNombre.Location = new System.Drawing.Point(290, 23);
+            this.txtSegundoNombre.Location = new System.Drawing.Point(289, 23);
             this.txtSegundoNombre.Name = "txtSegundoNombre";
             this.txtSegundoNombre.Size = new System.Drawing.Size(94, 20);
             this.txtSegundoNombre.TabIndex = 9;
@@ -273,7 +273,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(441, 0);
+            this.label6.Location = new System.Drawing.Point(440, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(76, 13);
             this.label6.TabIndex = 10;
@@ -281,14 +281,14 @@
             // 
             // txtPrimerApellido
             // 
-            this.txtPrimerApellido.Location = new System.Drawing.Point(441, 23);
+            this.txtPrimerApellido.Location = new System.Drawing.Point(440, 23);
             this.txtPrimerApellido.Name = "txtPrimerApellido";
             this.txtPrimerApellido.Size = new System.Drawing.Size(94, 20);
             this.txtPrimerApellido.TabIndex = 11;
             // 
             // mtxtCedula
             // 
-            this.mtxtCedula.Location = new System.Drawing.Point(290, 82);
+            this.mtxtCedula.Location = new System.Drawing.Point(289, 82);
             this.mtxtCedula.Mask = "##.###.###-#";
             this.mtxtCedula.Name = "mtxtCedula";
             this.mtxtCedula.Size = new System.Drawing.Size(100, 20);
@@ -297,7 +297,7 @@
             // 
             // btnObtenerFecha
             // 
-            this.btnObtenerFecha.Location = new System.Drawing.Point(441, 115);
+            this.btnObtenerFecha.Location = new System.Drawing.Point(440, 115);
             this.btnObtenerFecha.Name = "btnObtenerFecha";
             this.btnObtenerFecha.Size = new System.Drawing.Size(126, 23);
             this.btnObtenerFecha.TabIndex = 18;
@@ -307,7 +307,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(601, 115);
+            this.button1.Location = new System.Drawing.Point(600, 115);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 23);
             this.button1.TabIndex = 21;

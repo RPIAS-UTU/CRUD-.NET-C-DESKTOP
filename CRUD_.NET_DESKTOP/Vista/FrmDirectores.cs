@@ -172,5 +172,7 @@ namespace Vista
             // evitar error de show() al cerrar ventana
             instancia = null;
         }
+
+     
     }
 }
