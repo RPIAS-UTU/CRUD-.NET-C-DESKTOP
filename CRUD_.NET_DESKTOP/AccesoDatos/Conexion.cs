@@ -11,7 +11,7 @@ namespace AccesoDatos
     {
         protected static MySqlConnection GetMySqlConnection()
         {
-            return new MySqlConnection("SERVER=localhost; DATABASE=pruebas_2021; UID=root; PASSWORD=;");
+            return new MySqlConnection("SERVER=localhost; DATABASE=pruebas_utu; UID=root; PASSWORD=;");
         }
     }
 }

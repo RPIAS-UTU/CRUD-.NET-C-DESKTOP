@@ -151,11 +151,11 @@ namespace Vista
         {
            
             Director d = new Director(
-               Convert.ToInt32(txtCedula.Text),
-               txtPrimerNombre.Text,
-               txtSegundoNombre.Text,
-               txtPrimerApellido.Text,
-               txtSegundoApellido.Text,
+              String.IsNullOrEmpty(txtCedula.Text) ? 192459125 : Convert.ToInt32(txtCedula.Text),
+               String.IsNullOrEmpty(txtPrimerNombre.Text) ? "Juan" : txtPrimerNombre.Text,
+               String.IsNullOrEmpty(txtSegundoNombre.Text) ? "José" : txtSegundoNombre.Text,
+                String.IsNullOrEmpty(txtPrimerApellido.Text) ? "Rodriguez" : txtPrimerApellido.Text,
+                 String.IsNullOrEmpty(txtSegundoApellido.Text) ? "Sellanes" : txtSegundoApellido.Text,
                32000,
                12
                );
