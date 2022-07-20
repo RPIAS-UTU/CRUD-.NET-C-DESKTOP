@@ -89,6 +89,53 @@ DELIMITER ;
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `alumno`
+--
+DROP TABLE IF EXISTS `alumno`;
+CREATE TABLE `alumno` (
+  `id` int(11)  NOT NULL PRIMARY KEY AUTO_INCREMENT ,
+  `id_persona` int(11) NOT NULL,
+  `nota_final` int(11) NOT NULL
+)  ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+  
+--
+-- Estructura de tabla para la tabla `funcionario`
+--
+DROP TABLE IF EXISTS `funcionario`;
+CREATE TABLE `funcionario` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `id_persona` int(11) NOT NULL,
+  `sueldo_base` int(11) NOT NULL
+)  ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Estructura de tabla para la tabla `director`
+--
+DROP TABLE IF EXISTS `director`;
+CREATE TABLE `director` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `id_funcionario` int(11) NOT NULL,
+  `años_antiguedad` int(11) NOT NULL
+)  ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Estructura de tabla para la tabla `profesor`
+--
+DROP TABLE IF EXISTS `profesor`;
+CREATE TABLE `profesor` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `id_funcionario` int(11) NOT NULL,
+  `cantidad_horas_mensuales` double(4,2) NOT NULL,
+  `precio_hora`  double(4,2) NOT NULL
+)  ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+
+--
 -- Estructura de tabla para la tabla `empleado`
 --
 
@@ -118,7 +165,7 @@ INSERT INTO `empleado` (`id_empleado`, `id_persona`, `sueldo_base`) VALUES
 --
 DROP TABLE IF EXISTS `roles`;
 CREATE TABLE `roles` (
-  `id_rol` int(11) NOT NULL primary key auto_increment,
+  `id_rol` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
   `rol` varchar(250) DEFAULT NULL,
   `user_db` varchar(250) DEFAULT NULL,
   `pass_db` varchar(250) DEFAULT NULL,
@@ -255,6 +302,17 @@ INSERT INTO `usuarios_api` (`UsuarioId`, `Usuario`, `Password`, `Estado`) VALUES
 (8, 'usuario8@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'Inactivo'),
 (9, 'usuario9@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'Inactivo');
 
+--
+-- Datos para la tabla `alumno`
+--
+
+INSERT INTO `alumno` (`id_persona`, `nota_final`) VALUES
+(1, 10),
+(4, 12),
+(5, 5);
+
+
+
 -- --------------------------------------------------------
 --
 -- Estructura de tabla para la tabla `usuarios_token`
@@ -331,7 +389,10 @@ ALTER TABLE `persona`
 --
 -- Restricciones para tablas volcadas
 --
-
+ALTER TABLE `alumno` ADD CONSTRAINT `FK_alumno_persona` FOREIGN KEY (`id_persona`) REFERENCES `persona` (`id_persona`);
+ALTER TABLE `funcionario` ADD CONSTRAINT `FK_funcionario_persona` FOREIGN KEY (`id_persona`) REFERENCES `persona` (`id_persona`);
+ALTER TABLE `director` ADD CONSTRAINT `FK_director_funcionario` FOREIGN KEY (`id_funcionario`) REFERENCES `funcionario` (`id`);
+ALTER TABLE `profesor` ADD CONSTRAINT `FK_profesor_funcionario` FOREIGN KEY (`id_funcionario`) REFERENCES `funcionario` (`id`);
 --
 -- Filtros para la tabla `empleado`
 --
